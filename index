@@ -10,8 +10,22 @@
  </head>
  
  <body>
-  <div class ="container">
-  てすてすと
+  <nav class="navbar navbar-default"><!-- 1.ナビゲーションバーの設定 -->
+    <div class="container"><!-- 2.ヘッダ情報 -->   
+        <div class="navbar-header">
+            <a class="navbar-brand">在庫管理システム</a>
+        </div>
+        <ul class="nav navbar-nav"><!-- 3.リストの配置 -->
+            <li class="active"><a href="#">本部からのお知らせ</a></li>
+            <li><a href="#">在庫確認</a></li>
+            <li><a href="#">入出庫登録</a></li>
+        </ul>
+        <!-- 4.ボタン -->
+        <button type="button" class="btn btn-default navbar-btn">
+            <span class="glyphicon glyphicon-envelope"></span>
+        </button>
+    </div>
+</nav>
   </div>
   
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
